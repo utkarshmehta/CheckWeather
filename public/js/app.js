@@ -20,13 +20,13 @@ const searchData = document.querySelector("input");
 const messageOne = document.querySelector('#para1');
 const messageTwo = document.querySelector('#para2');
 
-window.onload = function(){
-    document.getElementById("search-button").style.display;
-}
+// window.onload = function(){
+//     document.getElementById("search-button").style.display;
+// }
 
-window.onload = function(){
-    document.getElementById("loading-button").style.display = 'none';
-}
+// window.onload = function(){
+//     document.getElementById("loading-button").style.display = 'none';
+// }
 
 
 weatherForm.addEventListener("submit", (e) => {
