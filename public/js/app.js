@@ -28,11 +28,14 @@ const messageTwo = document.querySelector("#para2");
 //     document.getElementById("loading-button").style.display = 'none';
 // }
 
+
 weatherForm.addEventListener("submit", (e) => {
   e.preventDefault();
+  messageOne.textContent = "Loading...";
+  messageTwo.textContent = "";
 
   const location = searchData.value;
-  fetch(`http://localhost:3000/weather_tt?address=${location}`).then(
+  fetch(`/weather_tt?address=${location}`).then(
     (response) => {
       response.json().then((data) => {
         if (data.error) {

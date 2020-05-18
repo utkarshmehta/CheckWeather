@@ -8,12 +8,14 @@ button {
     border-radius: 5px;
     border-color: #146EB3;
     cursor: pointer;
+    font-size: larger;
 }
 
 input{
     border-radius: 5px;
     border-color: #146EB3;
-    width: 200px;
+    width: 300px;
+    font-size: larger;
 }
 
 p {
