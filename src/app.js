@@ -27,7 +27,7 @@ app.get("", (req, res) => {
 app.get("/about", (req, res) => {
   res.render("about", {
     title: "About me",
-    name: "Utkarsh",
+    name: "Utkarsh Mehta",
     emergencyNo: "Call 911 in emergency",
   });
 });
